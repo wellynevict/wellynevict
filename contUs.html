@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Karbase">
+    <meta name="generator" content="Karbase v1.0.0">
+    <link rel="stylesheet" href="kartbes com.css">
+    <link href="https://kartbes.com/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Jomolhari|Lato&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link href="https://kartbes.com/assets/css/style.css" rel="stylesheet"> -->
+    <link href="https://kartbes.com/assets/css/stylemobile.css" rel="stylesheet">
+    <script type="text/javascript" async="" src="https://static.getbutton.io/widget-send-button/js/init.js"></script>
+    <script src="https://kit.fontawesome.com/f7296f59e0.js" crossorigin="anonymous"></script>
+    <link href="https://kartbes.com/assets/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    <style data-styled="active" data-styled-version="5.1.1"></style>
+    <title>Kartbes.com | Karianton Database</title>
+
+</head>
+<body style="background-color: #57007e; color: white;">
+<!-- Navbar -->
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="https://kartbes.com/"><img src="logoAbu.png" class="img80"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+<!-- Menu Navbar -->
+<div class="collapse navbar-collapse" id="navbarsExample05">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item active show">
+      <a class="nav-link" href="https://kartbes.com/">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="biodata.html" target="_blank">Biodata</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="mydreams.html" target="_blank">myDreams</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contUs.html" target="_blank">ContactUs</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="MasterPiece.html" target="_blank">MasterPiece</a>
+    </li>
+  </ul>
+    <div class="container" style="margin-left: 65%;">
+      <button type="button" class="btn btn-outline-primary">Login</button>
+      <button type="button" class="btn btn-outline-secondary">Free Trial</button>
+     </div>
+</div>
+</nav>
+</div>
+      
+    <form action="proccess.php" style="margin-left: 4%; margin-top: 2%;">
+        <p><label>Nama  : </label><input type="text" name="nama" placeholder="Masukkan Nama" required></p>
+        <p><label>Email : </label><input type="email" name="email" placeholder="Masukkan Email" required></p>
+        <p><label>Username  : </label><input type="text" name="username" placeholder="Username" required></p>
+        <p><label>Password  : </label><input type="password" name="password" placeholder="Masukkan Password" required></p>
+        <p><label>Jenis Kelamin :</label>
+            <input type="radio" name="jenis kelamin" value="laki-laki"><label>Laki-Laki</label>
+            <input type="radio" name="jenis kelamin" value="perempuan" ><label>Perempuan</label>
+        <p><label>Agama : </label>
+            <select name="agama">
+            <option value="Kristen Protestan" selected>Kristen Protestan</option>
+            <option value="Islam" >Islam</option>
+            <option value="Budha">Budha</option>
+            <option value="Konghucu">Konghucu</option>
+            <option value="Katolik">Katolik</option>
+            </select>
+          </p>
+        <p><label>Alamat : </label><br><textarea rows="5" cols="30" name="alamat"></textarea></p>
+        <div class="container" style="margin-right: 100%;">
+          <p>Hobi :</p>
+          <form>
+            <div class="checkbox">
+              <label><input type="checkbox" value="belajar"> Belajar</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="olahraga"> Olahraga</label>
+            </div>
+            <div class="checkbox disabled">
+              <label><input type="checkbox" value="travelling"> travelling</label>
+            </div>
+          </form>
+        </div>
+        
+    </form>
+</body>
+</html>
