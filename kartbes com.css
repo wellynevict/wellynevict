@@ -1,0 +1,38 @@
+.nav-link :hover{
+    color: #ffa069;
+}
+.imgHome{
+    width: 400px;
+    height: 400px ;
+}
+.part1 {
+    padding: 8vh 0;
+}
+.part1{
+    position: relative;
+    left: -2000px;
+    animation: slide 0.5s forwards;
+    animation-delay: .5s;
+}
+.part2{
+        padding: 12vh 0;
+        background-color: #f9f9f9;
+    }
+.img100{
+    height: 150px;
+    width: 100px;
+}
+.imgFooter{
+    width: 60%;
+}
+.imgPinterest{
+    position: relative;
+    left: 600px;
+}
+.igDanfb{
+    left: 100px;
+}
+.img80{
+    width: 80px;
+    height: 80px;
+}
